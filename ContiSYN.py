@@ -1393,8 +1393,8 @@ def main():
     parser.add_argument('--attention_attention_channel', type=int, default=10, help='Second Attention Hidden vector size')
     parser.add_argument("--input_channel", type=int, default=2000)
     parser.add_argument("--output_channel", type=int, default=2000)
-    parser.add_argument("--seed",type=int, default=2021,help='Seed - Test your luck!')
-    parser.add_argument('--file', type=str, default="stock_test/attention.npy", help="Attention score file")
+    parser.add_argument("--seed",type=int, default=2026,help='Seed - Test your luck!')
+    parser.add_argument('--file', type=str, default="", help="Attention score file")
     parser.add_argument('--itter', type=int, default="0", help="Attention save batch iter")
     here = pathlib.Path(__file__).resolve().parent
     args = parser.parse_args()
